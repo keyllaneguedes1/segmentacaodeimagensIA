@@ -60,10 +60,6 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 
 ### Exemplo: Máscara predita (vermelho) sobre imagem
 
-| Imagem Original | U-Net (Predição) | DeepLabV3+ (Predição) |
-|-----------------|------------------|------------------------|
-| ![img](original.png) | ![img](unet.png) | ![img](deeplabv3.png) |
-
 > DeepLabV3+ apresenta maior nitidez e aderência às bordas reais da estrada.
 
 ---
@@ -74,14 +70,6 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 - `ASPP`: Camada personalizada para extração multiescala
 - `DeeplabV3Plus`: Criação do modelo completo
 - `compute_iou(...)` e `compute_dice(...)`: Avaliação das máscaras
-
----
-
-## 📈 Visualizações e Métricas
-
-Gráficos de evolução das métricas por imagem:
-
-![Gráfico IoU e Dice](graph.png)
 
 ---
 
