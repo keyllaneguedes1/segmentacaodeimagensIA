@@ -85,20 +85,6 @@ Gráficos de evolução das métricas por imagem:
 
 ---
 
-## 🔄 Melhorias Futuras
-
-- Aplicar técnicas de *post-processing* (CRF, morfologia)
-- Treinar com resolução maior (768x768 ou 1024x512)
-- Usar backbone MobileNet para versão leve
-- Submissão para avaliação no benchmark oficial KITTI
-
----
-
-## 📬 Contribuições
-
-Contribuições e sugestões são bem-vindas via Pull Request ou Issues.
-
----
 
 ## 📜 Licença
 
