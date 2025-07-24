@@ -57,7 +57,12 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 
 ## 📁 Comparação Visual (DeepLabV3+ vs U-Net)
 
-### Exemplo: Máscara predita (vermelho) sobre imagem
+### Exemplo: Máscara predita 
+
+<img width="1572" height="403" alt="image" src="https://github.com/user-attachments/assets/9b454974-d04f-4b3d-bb56-0b3e31430727" />
+
+<img width="1187" height="174" alt="image" src="https://github.com/user-attachments/assets/4354dfd0-1942-4adf-8d19-9acb063932e5" />
+
 
 > DeepLabV3+ apresenta maior nitidez e aderência às bordas reais da estrada.
 
