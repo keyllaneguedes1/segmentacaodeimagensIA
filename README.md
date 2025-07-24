@@ -71,9 +71,10 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 - `compute_iou(...)` e `compute_dice(...)`: Avaliação das máscaras
 
 ---
-Código DeepLabV3+https://colab.research.google.com/drive/15sHKMgnreo-UFKsIk65Tki3o-y_VyHDf  
+Código DeepLabV3+: https://colab.research.google.com/drive/15sHKMgnreo-UFKsIk65Tki3o-y_VyHDf  
 
 Código UNet: https://colab.research.google.com/drive/12rGaXbZfIH59HmMcwf4i07u95nQ2c1eF
+
 ---
 
 ## 📜 Licença
