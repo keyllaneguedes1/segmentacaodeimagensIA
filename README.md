@@ -1,4 +1,3 @@
-
 # 🛣️ Segmentação de Estradas com DeepLabV3+ e ResNet50 no Dataset KITTI Road
 
 Este projeto implementa uma rede de segmentação semântica baseada em **DeepLabV3+ com backbone ResNet50** para identificar automaticamente **estradas em imagens urbanas**. Ele é comparado com uma versão anterior baseada em **U-Net**, com foco em melhorar a **precisão**, **robustez** e **capacidade de generalização**.
@@ -72,7 +71,10 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 - `compute_iou(...)` e `compute_dice(...)`: Avaliação das máscaras
 
 ---
+Código DeepLabV3+https://colab.research.google.com/drive/15sHKMgnreo-UFKsIk65Tki3o-y_VyHDf  
 
+Código UNet: https://colab.research.google.com/drive/12rGaXbZfIH59HmMcwf4i07u95nQ2c1eF
+---
 
 ## 📜 Licença
 
