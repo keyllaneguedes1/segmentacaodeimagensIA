@@ -21,7 +21,7 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 | **Módulo Especial**            | ASPP (Atrous Spatial Pyramid)    | Conexões de atalho (skip connections)  |
 | **Capacidade de Generalização**| Alta (graças ao ResNet e ASPP)   | Boa, mas limitada em contextos complexos |
 | **Precisão nas bordas**        | Melhor (captura multiescala)     | Pode suavizar bordas                   |
-| **Métricas médias**            | IoU ≈ **0.84**, Dice ≈ **0.89**  | IoU ≈ **0.78**, Dice ≈ **0.86**        |
+| **Métricas médias**            | IoU ≈ **0.84**, Dice ≈ **0.89**  | IoU ≈ **0.81**, Dice ≈ **0.88**        |
 | **Tempo de Treinamento**       | Maior (modelo mais profundo)     | Mais leve e rápido para treinar        |
 | **Aplicações**                 | Projetos robustos em produção    | Protótipos e aplicações educacionais   |
 
