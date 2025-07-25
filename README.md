@@ -12,22 +12,6 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 
 ---
 
-## 📊 Comparativo: DeepLabV3+ vs U-Net
-
-| Característica                  | DeepLabV3+ com ResNet50           | U-Net Clássica                         |
-|--------------------------------|----------------------------------|----------------------------------------|
-| **Backbone**                   | ResNet50 pré-treinada (ImageNet) | Arquitetura própria com convoluções    |
-| **Módulo Especial**            | ASPP (Atrous Spatial Pyramid)    | Conexões de atalho (skip connections)  |
-| **Capacidade de Generalização**| Alta (graças ao ResNet e ASPP)   | Boa, mas limitada em contextos complexos |
-| **Precisão nas bordas**        | Melhor (captura multiescala)     | Pode suavizar bordas                   |
-| **Métricas médias**            | IoU ≈ **0.84**, Dice ≈ **0.89**  | IoU ≈ **0.81**, Dice ≈ **0.88**        |
-| **Tempo de Treinamento**       | Maior (modelo mais profundo)     | Mais leve e rápido para treinar        |
-| **Aplicações**                 | Projetos robustos em produção    | Protótipos e aplicações educacionais   |
-
-📌 *Conclusão*: A **DeepLabV3+ supera a U-Net** em precisão e detalhamento, especialmente em imagens urbanas complexas. A U-Net, no entanto, é mais leve e fácil de adaptar em dispositivos embarcados ou ambientes com menos recursos computacionais.
-
----
-
 ## 🧠 Arquitetura Utilizada
 
 - **Entrada**: imagens RGB 512x512
@@ -52,6 +36,22 @@ Este projeto implementa uma rede de segmentação semântica baseada em **DeepLa
 - **IoU médio**: ~0.84  
 - **Dice médio**: ~0.89  
 - Visualizações detalhadas com sobreposição da predição na imagem original
+
+---
+
+## 📊 Comparativo: DeepLabV3+ vs U-Net
+
+| Característica                  | DeepLabV3+ com ResNet50           | U-Net Clássica                         |
+|--------------------------------|----------------------------------|----------------------------------------|
+| **Backbone**                   | ResNet50 pré-treinada (ImageNet) | Arquitetura própria com convoluções    |
+| **Módulo Especial**            | ASPP (Atrous Spatial Pyramid)    | Conexões de atalho (skip connections)  |
+| **Capacidade de Generalização**| Alta (graças ao ResNet e ASPP)   | Boa, mas limitada em contextos complexos |
+| **Precisão nas bordas**        | Melhor (captura multiescala)     | Pode suavizar bordas                   |
+| **Métricas médias**            | IoU ≈ **0.84**, Dice ≈ **0.89**  | IoU ≈ **0.81**, Dice ≈ **0.88**        |
+| **Tempo de Treinamento**       | Maior (modelo mais profundo)     | Mais leve e rápido para treinar        |
+| **Aplicações**                 | Projetos robustos em produção    | Protótipos e aplicações educacionais   |
+
+📌 *Conclusão*: A **DeepLabV3+ supera a U-Net** em precisão e detalhamento, especialmente em imagens urbanas complexas. A U-Net, no entanto, é mais leve e fácil de adaptar em dispositivos embarcados ou ambientes com menos recursos computacionais.
 
 ---
 
